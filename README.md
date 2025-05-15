@@ -1,8 +1,10 @@
 # SurVis - Visual Literature Browser
 
-![Screenshot](./doc/survis-self.png)
+![SurVis without color (Original)](./doc/survis-original.png)
 
-The color of the Histogram in the figure is achieved by clicking on `type:research`, `type:survey`, `venue:conference`, and `venue:journal` from the papers on the right side respectively.
+![SurVis with color](D:\Project\Python\UoN_RM\survis\doc\survis-withcolor.png)
+
+The colored version of the Histogram in the figure is achieved by clicking on `type:research`, `type:survey`, `venue:conference`, and `venue:journal` from the papers on the right side respectively.
 
 SurVis is a flexible online browser to present and analyze scientific literature. The system is made for authors of survey articles, theses, or books who want to share their references in a user-friendly way. All you need to start is a bib file and a list of keywords for your papers.
 
