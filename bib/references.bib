@@ -58,6 +58,20 @@
   ISSN={2169-3536},
   month={}
 }
+@inbook{doi:10.1137/1.9781611974348.49,
+  author = {Yu Cheng and Fei Wang and Ping Zhang and Jianying Hu},
+  title = {Risk Prediction with Electronic Health Records: A Deep Learning Approach},
+  booktitle = {Proceedings of the 2016 SIAM International Conference on Data Mining (SDM)},
+  chapter = {},
+  year={2016},
+  pages = {432-440},
+  series={SIAM},
+  doi = {10.1137/1.9781611974348.49},
+  URL = {https://epubs.siam.org/doi/abs/10.1137/1.9781611974348.49},
+  eprint = {https://epubs.siam.org/doi/pdf/10.1137/1.9781611974348.49},
+  abstract = { The recent years have witnessed a surge of interests in data analytics with patient Electronic Health Records (EHR). Data-driven healthcare, which aims at effective utilization of big medical data, representing the collective learning in treating hundreds of millions of patients, to provide the best and most personalized care, is believed to be one of the most promising directions for transforming healthcare. EHR is one of the major carriers for make this data-driven healthcare revolution successful. There are many challenges on working directly with EHR, such as temporality, sparsity, noisiness, bias, etc. Thus effective feature extraction, or phenotyping from patient EHRs is a key step before any further applications. In this paper, we propose a deep learning approach for phenotyping from patient EHRs. We first represent the EHRs for every patient as a temporal matrix with time on one dimension and event on the other dimension. Then we build a four-layer convolutional neural network model for extracting phenotypes and perform prediction. The first layer is composed of those EHR matrices. The second layer is a one-side convolution layer that can extract phenotypes from the first layer. The third layer is a max pooling layer introducing sparsity on the detected phenotypes, so that only those significant phenotypes will remain. The fourth layer is a fully connected softmax prediction layer. In order to incorporate the temporal smoothness of the patient EHR, we also investigated three different temporal fusion mechanisms in the model: early fusion, late fusion and slow fusion. Finally the proposed model is validated on a real world EHR data warehouse under the specific scenario of predictive modeling of chronic diseases. },
+  keywords={type:Research;venue:Conference;approach:Deep learning;Convolutional Neural Network (CNN);Fusion Strategy;Electronic Health Records (EHR);Diseases;Disease prediction;Risk prediction;Temporal matrix;Chronic disease}
+}
 @inproceedings{mullenbach-etal-2018-explainable,
   title = {Explainable Prediction of Medical Codes from Clinical Text},
   author = {Mullenbach, James and Wiegreffe, Sarah and Duke, Jon and Sun, Jimeng and Eisenstein, Jacob},
@@ -74,20 +88,6 @@
   series = {NAACL},
   abstract = {Clinical notes are text documents that are created by clinicians for each patient encounter. They are typically accompanied by medical codes, which describe the diagnosis and treatment. Annotating these codes is labor intensive and error prone; furthermore, the connection between the codes and the text is not annotated, obscuring the reasons and details behind specific diagnoses and treatments. We present an attentional convolutional network that predicts medical codes from clinical text. Our method aggregates information across the document using a convolutional neural network, and uses an attention mechanism to select the most relevant segments for each of the thousands of possible codes. The method is accurate, achieving precision@8 of 0.71 and a Micro-F1 of 0.54, which are both better than the prior state of the art. Furthermore, through an interpretability evaluation by a physician, we show that the attention mechanism identifies meaningful explanations for each code assignment.},
   keywords = {type:Research;venue:Conference;approach:Deep learning;Convolutional Neural Network (CNN);Electronic Health Records (EHR);MIMIC-III;ICD code prediction;Clinical Data;Multi-label classification;Convolutional Attention for Multi-Label;Label-wise attention;Interpretability}
-}
-@inbook{doi:10.1137/1.9781611974348.49,
-  author = {Yu Cheng and Fei Wang and Ping Zhang and Jianying Hu},
-  title = {Risk Prediction with Electronic Health Records: A Deep Learning Approach},
-  booktitle = {Proceedings of the 2016 SIAM International Conference on Data Mining (SDM)},
-  chapter = {},
-  year={2016},
-  pages = {432-440},
-  series={SIAM},
-  doi = {10.1137/1.9781611974348.49},
-  URL = {https://epubs.siam.org/doi/abs/10.1137/1.9781611974348.49},
-  eprint = {https://epubs.siam.org/doi/pdf/10.1137/1.9781611974348.49},
-  abstract = { The recent years have witnessed a surge of interests in data analytics with patient Electronic Health Records (EHR). Data-driven healthcare, which aims at effective utilization of big medical data, representing the collective learning in treating hundreds of millions of patients, to provide the best and most personalized care, is believed to be one of the most promising directions for transforming healthcare. EHR is one of the major carriers for make this data-driven healthcare revolution successful. There are many challenges on working directly with EHR, such as temporality, sparsity, noisiness, bias, etc. Thus effective feature extraction, or phenotyping from patient EHRs is a key step before any further applications. In this paper, we propose a deep learning approach for phenotyping from patient EHRs. We first represent the EHRs for every patient as a temporal matrix with time on one dimension and event on the other dimension. Then we build a four-layer convolutional neural network model for extracting phenotypes and perform prediction. The first layer is composed of those EHR matrices. The second layer is a one-side convolution layer that can extract phenotypes from the first layer. The third layer is a max pooling layer introducing sparsity on the detected phenotypes, so that only those significant phenotypes will remain. The fourth layer is a fully connected softmax prediction layer. In order to incorporate the temporal smoothness of the patient EHR, we also investigated three different temporal fusion mechanisms in the model: early fusion, late fusion and slow fusion. Finally the proposed model is validated on a real world EHR data warehouse under the specific scenario of predictive modeling of chronic diseases. },
-  keywords={type:Research;venue:Conference;approach:Deep learning;Convolutional Neural Network (CNN);Fusion Strategy;Electronic Health Records (EHR);Diseases;Disease prediction;Risk prediction;Temporal matrix;Chronic disease}
 }
 @ARTICLE{8245772,
   author={Jin, Bo and Che, Chao and Liu, Zhen and Zhang, Shulong and Yin, Xiaomeng and Wei, Xiaopeng},
