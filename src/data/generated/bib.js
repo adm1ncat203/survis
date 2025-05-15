@@ -136,7 +136,8 @@
         "series": "SIAM",
         "title": "Risk Prediction with Electronic Health Records: A Deep Learning Approach",
         "type": "inbook",
-        "url": "https://epubs.siam.org/doi/abs/10.1137/1.9781611974348.49"
+        "url": "https://epubs.siam.org/doi/abs/10.1137/1.9781611974348.49",
+        "year": "2016"
     },
     "mullenbach-etal-2018-explainable": {
         "abstract": "Clinical notes are text documents that are created by clinicians for each patient encounter. They are typically accompanied by medical codes, which describe the diagnosis and treatment. Annotating these codes is labor intensive and error prone; furthermore, the connection between the codes and the text is not annotated, obscuring the reasons and details behind specific diagnoses and treatments. We present an attentional convolutional network that predicts medical codes from clinical text. Our method aggregates information across the document using a convolutional neural network, and uses an attention mechanism to select the most relevant segments for each of the thousands of possible codes. The method is accurate, achieving precision@8 of 0.71 and a Micro-F1 of 0.54, which are both better than the prior state of the art. Furthermore, through an interpretability evaluation by a physician, we show that the attention mechanism identifies meaningful explanations for each code assignment.",
